@@ -1,43 +1,94 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hZIAsDPT)
-# CSCI 1260 — Project
+# War Card Game Simulation (C#)
 
-## Project Instructions
-All project requirements, grading criteria, and submission details are provided on **D2L**.  
-Refer to D2L as the *authoritative source* for this assignment.
+## Overview
 
-This repository is intentionally minimal. You are responsible for:
-- Creating the solution and projects
-- Designing the class structure
-- Implementing the required functionality
+Console simulation of the card game **War** written in **C# using object‑oriented design**. The program supports **2–4 players** and runs until one player holds all cards or a **10,000 round limit** is reached.
 
 ---
 
-## Getting Started (CLI)
+## Main Classes
 
-You may use **Visual Studio**, **VS Code**, or the **terminal**.
+| Class     | Purpose                                                |
+| --------- | ------------------------------------------------------ |
+| `Card`    | Represents a playing card (Suit + Rank)                |
+| `Deck`    | Builds and shuffles a 52‑card deck using `Stack<Card>` |
+| `Hand`    | Stores player cards using `Queue<Card>`                |
+| `WarGame` | Game logic and round handling                          |
+| `Program` | Console entry point                                    |
 
-### Create a solution
-```bash
-dotnet new sln -n ProjectName
+Required structures used:
+
+* `Stack<Card>` – deck
+* `Queue<Card>` – player hands
+* `Dictionary<string, Hand>` – player hands
+* `Dictionary<string, Card>` – cards played per round
+* `List<Card>` – shared pot
+
+---
+
+## Build
+
+Requires **.NET 6+**.
+
 ```
-
-### Create a project (example: console app)
-```bash
-dotnet new console -n ProjectName.App
-```
-
-### Add the project to the solution
-```bash
-dotnet sln add ProjectName.App
-```
-
-### Build and run
-```bash
 dotnet build
-dotnet run --project ProjectName.App
 ```
 
-## Notes
-- Commit early and commit often.
-- Your repository history is part of your submission.
-- Update this README with build/run instructions specific to your project.
+---
+
+## Run
+
+```
+dotnet run
+```
+
+You will be prompted for the number of players:
+
+```
+Enter number of players (2-4): 3
+```
+
+Players are automatically named **Player 1, Player 2, etc.**
+
+---
+
+## Game Rules
+
+Rank order:
+
+```
+2 3 4 5 6 7 8 9 10 J Q K A
+```
+
+* All players reveal their top card each round
+* Highest rank wins the round
+* Ties trigger a **tiebreaker** where tied players reveal another card
+* All cards go into a **shared pot**
+* The winner collects the entire pot
+* Players with **0 cards** are eliminated
+
+---
+
+## Round Limit
+
+The game stops after **10,000 rounds**. The player with the most cards wins. If tied, the game ends in a draw.
+
+---
+
+## GitHub Classroom
+
+Submitted through GitHub Classroom.
+
+Repository:
+
+```
+https://github.com/etsucs-scott/project-2-mooreb9/
+```
+
+---
+
+## Author
+
+Ben Moore
+CSCI 1260 – War Card Game Simulation
+

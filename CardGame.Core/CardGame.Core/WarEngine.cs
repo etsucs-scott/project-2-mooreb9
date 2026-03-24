@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class WarGame
+public class WarEngine
 {
     private Dictionary<string, Hand> playerHands = new();
     private const int ROUND_LIMIT = 10000;
 
-    public WarGame(int playerCount)
+    public WarEngine(int playerCount)
     {
         for (int i = 1; i <= playerCount; i++)
             playerHands.Add($"Player {i}", new Hand());

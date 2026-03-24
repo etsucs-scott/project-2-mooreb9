@@ -1,31 +1,4 @@
-﻿using System;
-
-public enum Suit
-{
-    Hearts,
-    Diamonds,
-    Clubs,
-    Spades
-}
-
-public enum Rank
-{
-    Two = 2,
-    Three,
-    Four,
-    Five,
-    Six,
-    Seven,
-    Eight,
-    Nine,
-    Ten,
-    Jack,
-    Queen,
-    King,
-    Ace
-}
-
-public class Card : IComparable<Card>
+﻿public class Card : IComparable<Card>
 {
     public Suit Suit { get; }
     public Rank Rank { get; }

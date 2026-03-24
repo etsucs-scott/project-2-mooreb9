@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.core\\playedcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|solutionrelative:cardgame.core\\playedcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.core\\playerhands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|solutionrelative:cardgame.core\\playerhands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.core\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|solutionrelative:cardgame.core\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.core\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|solutionrelative:cardgame.core\\rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.core\\suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|solutionrelative:cardgame.core\\suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.core\\warengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C28ED9A-13B0-4688-B916-BABF345FAE06}|CardGame.Core\\CardGame.Core.csproj|solutionrelative:cardgame.core\\warengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA72D974-70CD-4C47-BCF3-88CD75792666}|CardGame.Cli\\CardGame.Cli.csproj|c:\\users\\benjamin\\source\\repos\\project-2-mooreb9\\cardgame.core\\cardgame.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,45 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayedCards.cs",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\PlayedCards.cs",
-              "RelativeDocumentMoniker": "CardGame.Core\\PlayedCards.cs",
-              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\PlayedCards.cs*",
-              "RelativeToolTip": "CardGame.Core\\PlayedCards.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAADAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Rank.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Rank.cs",
+              "RelativeDocumentMoniker": "CardGame.Core\\Rank.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Rank.cs*",
+              "RelativeToolTip": "CardGame.Core\\Rank.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T22:37:31.247Z",
+              "WhenOpened": "2026-03-24T02:53:03.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Card.cs",
-              "RelativeDocumentMoniker": "CardGame.Core\\Card.cs",
-              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Card.cs",
-              "RelativeToolTip": "CardGame.Core\\Card.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIA9wBsAAAANAAAAAAAAAA==",
+              "Title": "Suit.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Suit.cs",
+              "RelativeDocumentMoniker": "CardGame.Core\\Suit.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Suit.cs*",
+              "RelativeToolTip": "CardGame.Core\\Suit.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T22:36:35.894Z",
+              "WhenOpened": "2026-03-24T02:52:35.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerHands.cs",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\PlayerHands.cs",
-              "RelativeDocumentMoniker": "CardGame.Core\\PlayerHands.cs",
-              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\PlayerHands.cs*",
-              "RelativeToolTip": "CardGame.Core\\PlayerHands.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Cli\\Program.cs",
+              "RelativeDocumentMoniker": "CardGame.Cli\\Program.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Cli\\Program.cs*",
+              "RelativeToolTip": "CardGame.Cli\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T22:36:21.167Z",
+              "WhenOpened": "2026-03-24T02:49:14.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\WarEngine.cs",
+              "RelativeDocumentMoniker": "CardGame.Core\\WarEngine.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\WarEngine.cs*",
+              "RelativeToolTip": "CardGame.Core\\WarEngine.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:41:43.894Z",
               "EditorCaption": ""
             },
             {
@@ -77,15 +94,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Cli\\Program.cs",
-              "RelativeDocumentMoniker": "CardGame.Cli\\Program.cs",
-              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Cli\\Program.cs",
-              "RelativeToolTip": "CardGame.Cli\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Card.cs",
+              "RelativeDocumentMoniker": "CardGame.Core\\Card.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\source\\repos\\project-2-mooreb9\\CardGame.Core\\CardGame.Core\\Card.cs*",
+              "RelativeToolTip": "CardGame.Core\\Card.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T20:50:12.627Z",
+              "WhenOpened": "2026-03-23T22:36:35.894Z",
               "EditorCaption": ""
             }
           ]

@@ -11,7 +11,7 @@
             return;
         }
 
-        WarGame game = new WarGame(players);
+        WarEngine game = new WarEngine(players);
         game.Play();
     }
 }
